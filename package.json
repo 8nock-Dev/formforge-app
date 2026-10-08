@@ -1,0 +1,9 @@
+{
+  "name": "formforge",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix backend ci && npm --prefix frontend ci",
+    "test": "npm --prefix backend test",
+    "build": "npm --prefix frontend run build"
+  }
+}
